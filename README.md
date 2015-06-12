@@ -1,5 +1,5 @@
 # petermarkellis.com
-Hi I'm Peter Ellis,
+Hi I'm Peter Ellis
 and I specialise in crafting beautiful User Interfaces and Experiences
 
 I am currenlty re-designing and re-building my site so you will have to hang tight for a little while.
