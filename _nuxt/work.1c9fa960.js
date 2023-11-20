@@ -1,1 +1,0 @@
-import{d as t,o,c as s,a as e}from"./entry.20c87e27.js";const n={class:"mx-auto container h-full"},a=e("div",{class:"mt-24 h-screen"},[e("h1",{class:"text-9xl font-semibold text-themeText pb-16 font-outfit leading-10"},"Work")],-1),c=[a],d=t({__name:"work",setup(r){return(_,i)=>(o(),s("section",n,c))}});export{d as default};
