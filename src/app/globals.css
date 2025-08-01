@@ -88,8 +88,15 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
   background-color: black;
+  scroll-behavior: smooth;
+}
+
+/* Only hide overflow on desktop to maintain fixed layout */
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 }
 
 a {
