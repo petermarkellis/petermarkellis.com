@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -138,14 +139,14 @@ export default function Home() {
             <div className='mt-4 flex flex-col  sm:flex-row md:flex-col lg:flex-col  gap-4 bg-white z-90'>
                       <div className=''>
                         <a href="mailto:petermarkellis@gmail.com?subject=Project Inquiry" className="text-black bg-black rounded-full px-4 py-2 flex items-center gap-2 text-white w-fit">
-                          <img src="/gmail.svg" alt="Signal" className="w-6 h-6" />
+                          <Image src="/gmail.svg" alt="Gmail" width={24} height={24} className="w-6 h-6" />
                           <span>Drop me a message</span>
                         </a>
                       </div>
                     
                       <div className=''>
                         <a href="https://signal.me/#eu/petermarkellis" target="_blank" rel="noopener noreferrer" className="text-black bg-[#3A76F0] rounded-full px-4 py-2 flex items-center gap-2 text-white w-fit">
-                          <img src="/signal-logo.svg" alt="Signal" className="w-6 h-6" />
+                          <Image src="/signal-logo.svg" alt="Signal" width={24} height={24} className="w-6 h-6" />
                           <span>Talk to me on Signal</span>
                         </a>
                     </div>
@@ -161,50 +162,50 @@ export default function Home() {
 
           <div className='flex flex-col gap-4 max-w-[900px]'>
                 
-                <img src="/showcase/audibee.webp" alt="Audibee - Next Generation Sequence Sampling" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/audibee.webp" alt="Audibee - Next Generation Sequence Sampling" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/mckinsey-1.webp" alt="UX and UI Design for McKinsey &amp; Co" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mckinsey-1.webp" alt="UX and UI Design for McKinsey &amp; Co" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/grenadier.webp" alt="Everything is a Gen-Z financial app with rewarda and sharing" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/grenadier.webp" alt="Everything is a Gen-Z financial app with rewarda and sharing" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
 
-                <img src="/showcase/mindfuel-7.webp" alt="UX and UI Design for Mindfuel" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mindfuel-7.webp" alt="UX and UI Design for Mindfuel" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/mindfuel-1.webp" alt="UX and UI Design for Mindfuel" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mindfuel-1.webp" alt="UX and UI Design for Mindfuel" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/mindfuel-9.webp" alt="UX and UI Design for Mindfuel" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mindfuel-9.webp" alt="UX and UI Design for Mindfuel" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/mindfuel-8.webp" alt="UX and UI Design for Mindfuel" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mindfuel-8.webp" alt="UX and UI Design for Mindfuel" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/mindfuel-6.webp" alt="UX and UI Design for Mindfuel" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mindfuel-6.webp" alt="UX and UI Design for Mindfuel" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/mindfuel-5.webp" alt="UX and UI Design for Mindfuel" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/mindfuel-5.webp" alt="UX and UI Design for Mindfuel" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/widex-1.webp" alt="Widex Moment App Design and Build" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/widex-1.webp" alt="Widex Moment App Design and Build" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/widex-2.webp" alt="Widex Moment App Flow" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/widex-2.webp" alt="Widex Moment App Flow" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/widex-3.webp" alt="Widex iPad Promotional App" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/widex-3.webp" alt="Widex iPad Promotional App" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/magnum-finance-1.webp" alt="Magnum Finance London" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/magnum-finance-1.webp" alt="Magnum Finance London" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/magnum-finance-2.webp" alt="Magnum Finance London" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/magnum-finance-2.webp" alt="Magnum Finance London" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/royal-exchange-manchester.webp" alt="Royal Exchange Manchester" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/royal-exchange-manchester.webp" alt="Royal Exchange Manchester" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/obey.webp" alt="OBEY" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/obey.webp" alt="OBEY" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/hyundai.webp" alt="Hyundai N74 Website Concept" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/hyundai.webp" alt="Hyundai N74 Website Concept" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/bupa.webp" alt="Bupa Promotional Design for Internal Bupa Associates" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/bupa.webp" alt="Bupa Promotional Design for Internal Bupa Associates" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/ascent-1.webp" alt="Ascent" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/ascent-1.webp" alt="Ascent" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/marriot.webp" alt="Marriott Systems UI as part of the Notifai project" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/marriot.webp" alt="Marriott Systems UI as part of the Notifai project" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/notifai.webp" alt="Air Quality Control System by the Team at Notifai" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/notifai.webp" alt="Air Quality Control System by the Team at Notifai" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
-                <img src="/showcase/everything-1.webp" alt="Everything is a Gen-Z financial app with rewarda and sharing" className="showcase-image w-full h-full object-cover rounded-xl block select-none" />
+                <Image src="/showcase/everything-1.webp" alt="Everything is a Gen-Z financial app with rewarda and sharing" width={900} height={600} className="showcase-image w-full h-auto object-cover rounded-xl block select-none" />
 
             
           </div>
