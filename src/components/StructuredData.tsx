@@ -36,7 +36,7 @@ export const personSchema = {
     "Video Editing"
   ],
   "worksFor": {
-    "@type": "Organization",
+    "@type": "Super Useful Studio",
     "name": "Freelance"
   }
 }
