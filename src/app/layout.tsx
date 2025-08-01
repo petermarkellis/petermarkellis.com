@@ -1,7 +1,7 @@
 import './globals.css';
 import LenisProvider from '@/components/LenisProvider';
 import StructuredData, { personSchema } from '@/components/StructuredData';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
@@ -14,13 +14,6 @@ export const metadata: Metadata = {
   keywords: ['Visual Designer', 'Product Designer', 'Web Developer', 'UI/UX Design', 'Webflow', 'Framer', 'Creative Strategy'],
   authors: [{ name: 'Peter Mark Ellis' }],
   creator: 'Peter Mark Ellis',
-  
-  // Viewport and mobile optimization
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
   
   // Icons and manifest
   icons: {
@@ -35,10 +28,6 @@ export const metadata: Metadata = {
   },
   
   manifest: '/manifest.json',
-  
-  // Theme colors for mobile browsers
-  themeColor: '#000000',
-  colorScheme: 'light',
   
   openGraph: {
     type: 'website',
@@ -86,6 +75,14 @@ export const metadata: Metadata = {
   
   // Additional meta tags
   category: 'Design Portfolio',
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#000000',
+  colorScheme: 'light',
 };
 
 export default function RootLayout({
