@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+@import "../styles/fonts.css";
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 3px; /* 50% thinner than default (usually 12px) */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Hide background panel */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent thumb */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5); /* Darker on hover */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin; /* Makes scrollbar thinner */
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent; /* thumb color, track color */
+}
+
+/* Hide scrollbar utility class */
+@layer utilities {
+  .scrollbar-hide {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    
+    /* Firefox */
+    scrollbar-width: none;
+  }
+  
+  /* WebKit */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Tailwind 4 CSS-based configuration */
+@theme {
+  --font-family-pp-neue-montreal: 'PP Neue Montreal', sans-serif;
+  --font-family-sans: 'PP Neue Montreal', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-display: 'PP Neue Montreal', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Set PP Neue Montreal as the default font for the entire website */
+@layer base {
+  html {
+    font-family: 'PP Neue Montreal', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  body {
+    font-family: 'PP Neue Montreal', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  * {
+    font-family: inherit;
+  }
+}
+
+:root {
+  --background: #e3e3db;
+  --foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: 'PP Neue Montreal', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  /* Disable animations for users who prefer reduced motion */
+  .hero-title-first,
+  .hero-title-second {
+    clip-path: inset(0% 0% 0% 0%) !important;
+  }
+  
+  .hero-title-first div,
+  .hero-title-second div {
+    transform: translateY(0px) !important;
+  }
+  
+  .heroimage {
+    width: 190px !important;
+  }
+
+  /* Stop marquee movement for reduced motion */
+  .scrolling-text .rail h4 {
+    transform: translateX(0) !important;
+  }
+  
+  /* Disable all transitions and animations */
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+.projects-list{
+  /*width: 100vw;
+  height: 100svh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;*/
+}
+
+
+/**
+.hero-title-first
+{
+  display: block;
+  color: red;
+  clip-path: inset(0 0 0 0);
+  animation: revealText 0.5s ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 800ms;
+}
+
+
+.hero-title-second
+{
+  display: block;
+  color: red;
+  clip-path: inset(0 0 0 0);
+  animation: revealText 0.5s ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 800ms;
+}
+
+@keyframes revealText {
+  from {
+    clip-path: inset(100% 0 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.hero-title-first.span
+{
+}
+*/
+
+
+
+
+
+
+

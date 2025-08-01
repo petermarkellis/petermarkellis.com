@@ -1,0 +1,34 @@
+{
+  "name": "Peter Mark Ellis - Visual Designer & Developer",
+  "short_name": "Peter Ellis",
+  "description": "Visual Designer and Developer partnering with founders, enterprises and visionary startups",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["design", "portfolio", "business"],
+  "lang": "en-GB",
+  "scope": "/",
+  "id": "petermarkellis-portfolio"
+}
