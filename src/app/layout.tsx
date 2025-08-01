@@ -1,7 +1,5 @@
 import './globals.css';
 import LenisProvider from '@/components/LenisProvider';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import StructuredData, { personSchema } from '@/components/StructuredData';
 import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/react'

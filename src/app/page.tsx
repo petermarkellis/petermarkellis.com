@@ -1,6 +1,5 @@
 "use client";
-import { useRef, useEffect, useState } from 'react';
-import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react';
+import { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 
 
