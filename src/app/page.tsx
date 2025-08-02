@@ -69,7 +69,7 @@ export default function Home() {
 
         <aside className="flex flex-col gap-8 p-4 w-full shrink-0 items-start justify-start md:fixed md:left-0 md:top-0 md:h-screen md:overflow-y-auto md:max-w-xs">
       
-            <div className='flex flex-col gap-4 lg:top-0 sticky top-0 md:h-full'>
+            <div className='flex flex-col gap-4 lg:top-0 md:sticky md:top-0 md:h-full'>
               <h1 className="text-xl font-medium">Peter Ellis — Visual Designer and Developer  </h1>
 
               <div className='flex flex-row gap-1'>
