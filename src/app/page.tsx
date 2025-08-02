@@ -161,7 +161,7 @@ export default function Home() {
         {/* Vertically Scrollable panel with content  */}
         <section className="min-h-screen md:h-full w-full flex flex-col items-center md:overflow-y-auto justify-start gap-4 px-4 py-4 md:ml-80">    
 
-          <div className='flex flex-col gap-4 w-full max-w-[800px] lg:max-w-[900px] xl:max-w-[1200px] 2xl:max-w-[1400px]'>
+          <div className='flex flex-col gap-4 w-full max-w-[800px] lg:max-w-[900px] xl:max-w-[1080px] 2xl:max-w-[1080px]'>
             {showcaseData.images.map((image, index) => (
               <Image 
                 key={index}
