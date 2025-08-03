@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'Peter Mark Ellis - Visual Designer & Developer',
     template: '%s | Peter Mark Ellis'
   },
-  description: 'Product Design Engineer speacialising in Web Design and Development. I partner with founders, enterprises and visionary startups. Specializing in product design, web development, and creative strategy.',
+  description: 'Product Design Engineer specialising in Web Design and Development. I partner with founders, enterprises and visionary startups. Specialising in product design, web development, and creative strategy.',
   keywords: ['Visual Designer', 'Product Designer', 'Web Developer', 'UI/UX Design', 'Webflow', 'Framer', 'Creative Strategy', 'Product Design Engineer'],
   authors: [{ name: 'Peter Mark Ellis' }],
   creator: 'Peter Mark Ellis',
