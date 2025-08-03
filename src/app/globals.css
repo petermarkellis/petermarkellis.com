@@ -93,7 +93,7 @@ body {
 }
 
 /* Only hide overflow on desktop to maintain fixed layout */
-@media (min-width: 2068px) {
+@media (min-width: 768px) {
   body {
     overflow: hidden;
   }

@@ -70,7 +70,7 @@ export default function Home() {
         <aside className="flex flex-col gap-8 p-4 w-full shrink-0 items-start justify-start md:fixed md:left-0 md:top-0 md:h-screen md:overflow-y-auto md:max-w-xs">
       
             <div className='flex flex-col gap-4 lg:top-0 md:sticky md:top-0 md:h-full'>
-              <h1 className="text-xl font-medium">Peter Ellis — Visual Designer and Developer  </h1>
+              <h1 className="text-xl font-medium">Peter Ellis — Product Design Engineer and Creative Strategy</h1>
 
               <div className='flex flex-row gap-1'>
                 <span className='font-mono w-6 text-center'>{hours}</span><span className='text-slate-300'>|</span><span className='font-mono w-6 text-center'>{minutes}</span><span className='text-slate-300'>|</span><span className='font-mono w-6 text-center'>{seconds}</span>
@@ -90,7 +90,7 @@ export default function Home() {
                     <ul className='flex flex-col gap-1'>
                       <li><p className='text-sm font-medium'>Product Design</p></li>
                       <li><p className='text-sm font-medium'>Visual Design</p></li>
-                      <li><p className='text-sm font-medium'>Web Development</p></li>
+                      <li><p className='text-sm font-medium'>Web Dev</p></li>
                       <li><p className='text-sm font-medium'>UI/UX Design</p></li>
                       <li><p className='text-sm font-medium'>Webflow / Framer</p></li>
                       <li><p className='text-sm font-medium'>Visual Design</p></li>
@@ -101,34 +101,7 @@ export default function Home() {
                   </div>
 
 
-                  
-
-                  <div className='flex flex-col gap-4'>
-                    <h2 className='text-sm font-medium'>Work</h2>
-                  </div>
-                  
-                  <div className='flex flex-col'>
-                    <ul className='flex flex-col gap-3'>
-                    <li>
-                      
-                      <p className='text-sm font-medium'>Founding Designer <span className='text-slate-400'>(UK, 2025)</span></p>
-                        <p className='text-sm font-medium'>Super Useful Studio</p>
-                      </li>
-                      <li>
-                      <p className='text-sm font-medium'>Product Design Lead <span className='text-slate-400'>(Germany, 2024)</span></p>
-                        <p className='text-sm font-medium'>Mindfuel.ai</p>
-                      </li>
-                      <li>
-                      <p className='text-sm font-medium'>Design Lead <span className='text-slate-400'>(Prague, 2020)</span></p>
-                        <p className='text-sm font-medium'>McKinsey &amp; Co</p>
-                      </li>
-                      <li>
-                      <p className='text-sm font-medium'>Product Design Lead <span className='text-slate-400'>(Denmark, 2018)</span></p>
-                        <p className='text-sm font-medium'>Widex & Signia</p>
-                      </li>
-                     
-                    </ul>
-                  </div>
+                
 
                 </div>
 
