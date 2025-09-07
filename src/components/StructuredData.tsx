@@ -26,14 +26,12 @@ export const personSchema = {
     // "https://github.com/your-username"
   ],
   "knowsAbout": [
-    "Product Design",
-    "Visual Design", 
+    "Product Design Engineering",
     "Web Development",
+    "SaaS Development",
     "UI/UX Design",
     "Webflow",
     "Framer",
-    "Creative Strategy",
-    "Video Editing"
   ],
   "worksFor": {
     "@type": "Super Useful Studio",

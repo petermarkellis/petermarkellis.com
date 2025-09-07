@@ -70,7 +70,7 @@ export default function Home() {
         <aside className="flex flex-col gap-8 p-4 w-full shrink-0 items-start justify-start md:fixed md:left-0 md:top-0 md:h-screen md:overflow-y-auto md:max-w-xs">
       
             <div className='flex flex-col gap-4 lg:top-0 md:sticky md:top-0 md:h-full'>
-              <h1 className="text-xl font-medium">Peter Ellis — Product Design Engineer and Creative Strategy</h1>
+              <h1 className="text-xl font-medium">Peter Ellis — Product Engineer</h1>
 
               <div className='flex flex-row gap-1'>
                 <span className='font-mono w-6 text-center'>{hours}</span><span className='text-slate-300'>|</span><span className='font-mono w-6 text-center'>{minutes}</span><span className='text-slate-300'>|</span><span className='font-mono w-6 text-center'>{seconds}</span>
@@ -78,8 +78,7 @@ export default function Home() {
               </div>
 
 
-              <p>I partner with founders, enterprises and visionary startups leaveraging my full experience in design and development to create brands and experiences that drive growth and transformation.</p>
-
+              <p>A Design Engineer / Full Stack Developer and experienced Software Engineer working with startups and enterprises to create products and experiences that drive growth and transformation.</p>
               <div className='flex flex-col sm:flex-row md:flex-col gap-4'>
 
                 <div className='flex flex-col gap-4'>
@@ -88,15 +87,12 @@ export default function Home() {
 
                   <div className='flex flex-col'>
                     <ul className='flex flex-col gap-1'>
-                      <li><p className='text-sm font-medium'>Product Design</p></li>
-                      <li><p className='text-sm font-medium'>Visual Design</p></li>
-                      <li><p className='text-sm font-medium'>Web Dev</p></li>
-                      <li><p className='text-sm font-medium'>UI/UX Design</p></li>
+                      <li><p className='text-sm font-medium'>Product Development</p></li>
+                      <li><p className='text-sm font-medium'>Design Engineering</p></li>
+                      <li><p className='text-sm font-medium'>Web Development</p></li>
+                      <li><p className='text-sm font-medium'>UI/UX</p></li>
                       <li><p className='text-sm font-medium'>Webflow / Framer</p></li>
-                      <li><p className='text-sm font-medium'>Visual Design</p></li>
                       <li><p className='text-sm font-medium'>No-Code Low Code Solutions</p></li>
-                      <li><p className='text-sm font-medium'>Creative Strategy</p></li>
-                      <li><p className='text-sm font-medium'>Video Editing</p></li>
                     </ul>
                   </div>
 
