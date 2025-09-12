@@ -70,7 +70,7 @@ export default function Home() {
         <aside className="flex flex-col gap-8 p-4 w-full shrink-0 items-start justify-start md:fixed md:left-0 md:top-0 md:h-screen md:overflow-y-auto md:max-w-xs">
       
             <div className='flex flex-col gap-4 lg:top-0 md:sticky md:top-0 md:h-full'>
-              <h1 className="text-xl font-medium">Peter Ellis — Product Engineer</h1>
+              <h1 className="text-xl font-medium">Peter Ellis — Product Design, Creative and Web Development</h1>
 
               <div className='flex flex-row gap-1'>
                 <span className='font-mono w-6 text-center'>{hours}</span><span className='text-slate-300'>|</span><span className='font-mono w-6 text-center'>{minutes}</span><span className='text-slate-300'>|</span><span className='font-mono w-6 text-center'>{seconds}</span>
