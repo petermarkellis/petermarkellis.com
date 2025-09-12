@@ -78,7 +78,7 @@ export default function Home() {
               </div>
 
 
-              <p>A Design Engineer / Full Stack Developer and experienced Software Engineer working with startups and enterprises to create products and experiences that drive growth and transformation.</p>
+              <p>I cover Product Design, Web Development, Branding, Creative Strategy and work with startups and enterprises to create products and experiences that drive growth and transformation.</p>
               <div className='flex flex-col sm:flex-row md:flex-col gap-4'>
 
                 <div className='flex flex-col gap-4'>
@@ -89,8 +89,10 @@ export default function Home() {
                     <ul className='flex flex-col gap-1'>
                       <li><p className='text-sm font-medium'>Product Development</p></li>
                       <li><p className='text-sm font-medium'>Design Engineering</p></li>
+                      <li><p className='text-sm font-medium'>Creative Strategy</p></li>
                       <li><p className='text-sm font-medium'>Web Development</p></li>
                       <li><p className='text-sm font-medium'>UI/UX</p></li>
+                      <li><p className='text-sm font-medium'>Branding</p></li>
                       <li><p className='text-sm font-medium'>Webflow / Framer</p></li>
                       <li><p className='text-sm font-medium'>No-Code Low Code Solutions</p></li>
                     </ul>

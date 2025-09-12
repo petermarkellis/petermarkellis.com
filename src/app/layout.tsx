@@ -33,15 +33,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_GB',
     url: 'https://petermarkellis.com',
-    title: 'Peter Mark Ellis - Product Design Engineer',
-    description: 'Product Design Engineer partnering with founders, enterprises and visionary startups.',
+    title: 'Peter Mark Ellis - Product Design and Developer',
+    description: 'Product Design and Developer partnering with founders, enterprises and visionary startups.',
     siteName: 'Peter Mark Ellis',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Peter Mark Ellis - Product Design Engineer',
+        alt: 'Peter Mark Ellis - Product Design and Developer',
       }
     ],
   },
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
   
   // App-specific metadata
-  applicationName: 'Peter Mark Ellis Portfolio',
+  applicationName: 'Peter Ellis Portfolio',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
